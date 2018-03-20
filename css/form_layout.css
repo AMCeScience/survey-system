@@ -1,0 +1,43 @@
+.btn-continue, .btn-previous, .btn-final {
+  margin: 35px;
+  display: block;
+}
+
+.form-check-label input[type="radio"] {
+  margin-right: 5px;
+}
+
+.prefill h4 {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.software-check .table {
+  font-size: 0.85em;
+}
+
+.software-check .table thead th, .software-check .table tfoot th {
+  text-align: center;
+  vertical-align: top;
+  padding: 0.6rem 0.6rem;
+}
+
+.software-check .table td {
+  text-align: center;
+}
+
+.software-check .table tr {
+  position: relative;
+}
+
+.software-check .table td, .software-check .table th {
+  padding: 0.4rem 0.75rem;
+}
+
+.custom-checkbox, .custom-radio {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,79 @@
+.spacer {
+  height: 56px;
+  margin-bottom: 40px;
+}
+
+.navbar .progress {
+  width: 25%;
+  margin-right: 25px;
+}
+
+.load-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table;
+}
+
+.load-overlay .loader-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.load-overlay .loader {
+  margin: 0 auto;
+}
+
+.btn .loader-center {
+  margin: 0 auto;
+  display: table;
+}
+
+.btn .loader {
+  height: 20px;
+  width: 20px;
+  float: right;
+  margin-left: 10px;
+}
+
+.sliders {
+  margin: 10px 30px 40px 30px;
+}
+
+.label {
+  height: 40px;
+  padding: 0 45px;
+}
+
+.label-end {
+  text-align: right;
+}
+
+fieldset {
+  margin-top: 40px;
+}
+
+legend {
+  margin-bottom: 15px;
+}
+
+fieldset {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+fieldset.warning legend {
+  color: red;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-redo {
+  width: 100%;
+  margin: 15px 0 0 0;
+}
+
+/* Hide noUiSlider handles */
+.unmoved .noUi-handle { background: none !important; border: none !important; box-shadow: none !important; }
+.unmoved .noUi-handle:before, .unmoved .noUi-handle:after { content: none !important; }
